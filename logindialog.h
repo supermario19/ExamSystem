@@ -8,6 +8,7 @@
 #include <QWidget>
 #include <QMessageBox>
 #include <QRegularExpression>
+#include <QFile>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class LoginDialog; }

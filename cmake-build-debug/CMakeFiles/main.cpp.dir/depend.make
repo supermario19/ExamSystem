@@ -4,7 +4,9 @@
 CMakeFiles/main.cpp.dir/logindialog.cpp.o: \
  ../logindialog.cpp \
  ../logindialog.h \
+ /opt/homebrew/lib/QtCore.framework/Headers/QFile \
  /opt/homebrew/lib/QtCore.framework/Headers/QRegularExpression \
+ /opt/homebrew/lib/QtCore.framework/Headers/qfile.h \
  /opt/homebrew/lib/QtCore.framework/Headers/qregularexpression.h \
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox \
  /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
@@ -43,6 +45,7 @@ CMakeFiles/main.cpp.dir/logindialog.cpp.o: \
  /opt/homebrew/opt/qt@6/include/QtCore/qdatastream.h \
  /opt/homebrew/opt/qt@6/include/QtCore/qdebug.h \
  /opt/homebrew/opt/qt@6/include/QtCore/qeventloop.h \
+ /opt/homebrew/opt/qt@6/include/QtCore/qfiledevice.h \
  /opt/homebrew/opt/qt@6/include/QtCore/qflags.h \
  /opt/homebrew/opt/qt@6/include/QtCore/qgenericatomic.h \
  /opt/homebrew/opt/qt@6/include/QtCore/qglobal.h \
@@ -166,9 +169,11 @@ CMakeFiles/main.cpp.dir/main.cpp.o: \
  ../main.cpp \
  /opt/homebrew/lib/QtCore.framework/Headers/QCoreApplication \
  /opt/homebrew/lib/QtCore.framework/Headers/QDebug \
+ /opt/homebrew/lib/QtCore.framework/Headers/QFile \
  /opt/homebrew/lib/QtCore.framework/Headers/QRegularExpression \
  /opt/homebrew/lib/QtCore.framework/Headers/qcoreapplication.h \
  /opt/homebrew/lib/QtCore.framework/Headers/qdebug.h \
+ /opt/homebrew/lib/QtCore.framework/Headers/qfile.h \
  /opt/homebrew/lib/QtCore.framework/Headers/qregularexpression.h \
  /opt/homebrew/lib/QtWidgets.framework/Headers/QApplication \
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox \
@@ -208,6 +213,7 @@ CMakeFiles/main.cpp.dir/main.cpp.o: \
  /opt/homebrew/opt/qt@6/include/QtCore/qdatastream.h \
  /opt/homebrew/opt/qt@6/include/QtCore/qdebug.h \
  /opt/homebrew/opt/qt@6/include/QtCore/qeventloop.h \
+ /opt/homebrew/opt/qt@6/include/QtCore/qfiledevice.h \
  /opt/homebrew/opt/qt@6/include/QtCore/qflags.h \
  /opt/homebrew/opt/qt@6/include/QtCore/qgenericatomic.h \
  /opt/homebrew/opt/qt@6/include/QtCore/qglobal.h \
@@ -313,7 +319,9 @@ CMakeFiles/main.cpp.dir/main.cpp_autogen/mocs_compilation.cpp.o: \
  main.cpp_autogen/mocs_compilation.cpp \
  ../logindialog.h \
  ../mainwindow.h \
+ /opt/homebrew/lib/QtCore.framework/Headers/QFile \
  /opt/homebrew/lib/QtCore.framework/Headers/QRegularExpression \
+ /opt/homebrew/lib/QtCore.framework/Headers/qfile.h \
  /opt/homebrew/lib/QtCore.framework/Headers/qregularexpression.h \
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox \
  /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
@@ -349,6 +357,7 @@ CMakeFiles/main.cpp.dir/main.cpp_autogen/mocs_compilation.cpp.o: \
  /opt/homebrew/opt/qt@6/include/QtCore/qcoreevent.h \
  /opt/homebrew/opt/qt@6/include/QtCore/qdatastream.h \
  /opt/homebrew/opt/qt@6/include/QtCore/qdebug.h \
+ /opt/homebrew/opt/qt@6/include/QtCore/qfiledevice.h \
  /opt/homebrew/opt/qt@6/include/QtCore/qflags.h \
  /opt/homebrew/opt/qt@6/include/QtCore/qgenericatomic.h \
  /opt/homebrew/opt/qt@6/include/QtCore/qglobal.h \
