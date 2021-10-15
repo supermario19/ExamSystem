@@ -4,7 +4,11 @@
 CMakeFiles/main.cpp.dir/logindialog.cpp.o: \
  ../logindialog.cpp \
  ../logindialog.h \
+ /opt/homebrew/lib/QtCore.framework/Headers/QRegularExpression \
+ /opt/homebrew/lib/QtCore.framework/Headers/qregularexpression.h \
+ /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox \
  /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
+ /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h \
  /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h \
  /opt/homebrew/opt/qt@6/include/QtCore/QList \
  /opt/homebrew/opt/qt@6/include/QtCore/QObject \
@@ -147,6 +151,7 @@ CMakeFiles/main.cpp.dir/logindialog.cpp.o: \
  /opt/homebrew/opt/qt@6/include/QtWidgets/QWidget \
  /opt/homebrew/opt/qt@6/include/QtWidgets/qabstractbutton.h \
  /opt/homebrew/opt/qt@6/include/QtWidgets/qapplication.h \
+ /opt/homebrew/opt/qt@6/include/QtWidgets/qdialog.h \
  /opt/homebrew/opt/qt@6/include/QtWidgets/qframe.h \
  /opt/homebrew/opt/qt@6/include/QtWidgets/qlabel.h \
  /opt/homebrew/opt/qt@6/include/QtWidgets/qlineedit.h \
@@ -161,11 +166,15 @@ CMakeFiles/main.cpp.dir/main.cpp.o: \
  ../main.cpp \
  /opt/homebrew/lib/QtCore.framework/Headers/QCoreApplication \
  /opt/homebrew/lib/QtCore.framework/Headers/QDebug \
+ /opt/homebrew/lib/QtCore.framework/Headers/QRegularExpression \
  /opt/homebrew/lib/QtCore.framework/Headers/qcoreapplication.h \
  /opt/homebrew/lib/QtCore.framework/Headers/qdebug.h \
+ /opt/homebrew/lib/QtCore.framework/Headers/qregularexpression.h \
  /opt/homebrew/lib/QtWidgets.framework/Headers/QApplication \
+ /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox \
  /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
  /opt/homebrew/lib/QtWidgets.framework/Headers/qapplication.h \
+ /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h \
  /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h \
  /opt/homebrew/opt/qt@6/include/QtCore/QList \
  /opt/homebrew/opt/qt@6/include/QtCore/QObject \
@@ -293,16 +302,22 @@ CMakeFiles/main.cpp.dir/main.cpp.o: \
  /opt/homebrew/opt/qt@6/include/QtGui/qvectornd.h \
  /opt/homebrew/opt/qt@6/include/QtGui/qwindowdefs.h \
  /opt/homebrew/opt/qt@6/include/QtGui/qwindowdefs_win.h \
+ /opt/homebrew/opt/qt@6/include/QtWidgets/qdialog.h \
  /opt/homebrew/opt/qt@6/include/QtWidgets/qsizepolicy.h \
  /opt/homebrew/opt/qt@6/include/QtWidgets/qtwidgets-config.h \
- /opt/homebrew/opt/qt@6/include/QtWidgets/qtwidgetsglobal.h
+ /opt/homebrew/opt/qt@6/include/QtWidgets/qtwidgetsglobal.h \
+ /opt/homebrew/opt/qt@6/include/QtWidgets/qwidget.h
 CMakeFiles/main.cpp.dir/main.cpp_autogen/mocs_compilation.cpp.o: \
  main.cpp_autogen/EWIEGA46WW/moc_logindialog.cpp \
  main.cpp_autogen/EWIEGA46WW/moc_mainwindow.cpp \
  main.cpp_autogen/mocs_compilation.cpp \
  ../logindialog.h \
  ../mainwindow.h \
+ /opt/homebrew/lib/QtCore.framework/Headers/QRegularExpression \
+ /opt/homebrew/lib/QtCore.framework/Headers/qregularexpression.h \
+ /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox \
  /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
+ /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h \
  /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h \
  /opt/homebrew/opt/qt@6/include/QtCore/QList \
  /opt/homebrew/opt/qt@6/include/QtCore/QObject \
@@ -425,9 +440,11 @@ CMakeFiles/main.cpp.dir/main.cpp_autogen/mocs_compilation.cpp.o: \
  /opt/homebrew/opt/qt@6/include/QtGui/qvectornd.h \
  /opt/homebrew/opt/qt@6/include/QtGui/qwindowdefs.h \
  /opt/homebrew/opt/qt@6/include/QtGui/qwindowdefs_win.h \
+ /opt/homebrew/opt/qt@6/include/QtWidgets/qdialog.h \
  /opt/homebrew/opt/qt@6/include/QtWidgets/qsizepolicy.h \
  /opt/homebrew/opt/qt@6/include/QtWidgets/qtwidgets-config.h \
- /opt/homebrew/opt/qt@6/include/QtWidgets/qtwidgetsglobal.h
+ /opt/homebrew/opt/qt@6/include/QtWidgets/qtwidgetsglobal.h \
+ /opt/homebrew/opt/qt@6/include/QtWidgets/qwidget.h
 CMakeFiles/main.cpp.dir/mainwindow.cpp.o: \
  ../mainwindow.cpp \
  ../mainwindow.h \

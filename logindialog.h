@@ -6,6 +6,8 @@
 #define EXAMSYSTEM__LOGINDIALOG_H_
 
 #include <QWidget>
+#include <QMessageBox>
+#include <QRegularExpression>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class LoginDialog; }
@@ -13,13 +15,16 @@ QT_END_NAMESPACE
 
 class LoginDialog : public QWidget {
  Q_OBJECT
-
+ private slots:
+  void on_login_btn_clicked();
  public:
   explicit LoginDialog(QWidget *parent = nullptr);
   ~LoginDialog() override;
 
  private:
   Ui::LoginDialog *ui;
+
+  void init_window();
 };
 
 #endif //EXAMSYSTEM__LOGINDIALOG_H_

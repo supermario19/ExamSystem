@@ -13,7 +13,7 @@
   <property name="windowTitle">
    <string>LoginDialog</string>
   </property>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="login_btn">
    <property name="geometry">
     <rect>
      <x>150</x>
@@ -26,7 +26,7 @@
     <string>登陆</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_2">
+  <widget class="QPushButton" name="close_btn">
    <property name="geometry">
     <rect>
      <x>270</x>
@@ -39,7 +39,7 @@
     <string>取消</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label">
+  <widget class="QLabel" name="username_label">
    <property name="geometry">
     <rect>
      <x>60</x>
@@ -52,7 +52,7 @@
     <string>账号:</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_2">
+  <widget class="QLabel" name="password_label">
    <property name="geometry">
     <rect>
      <x>60</x>
@@ -65,7 +65,7 @@
     <string>密码:</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit">
+  <widget class="QLineEdit" name="user_edit">
    <property name="geometry">
     <rect>
      <x>120</x>
@@ -75,7 +75,7 @@
     </rect>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_2">
+  <widget class="QLineEdit" name="password_edit">
    <property name="geometry">
     <rect>
      <x>120</x>
