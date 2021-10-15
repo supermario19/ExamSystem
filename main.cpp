@@ -1,8 +1,11 @@
+#include <QApplication>
 #include <QCoreApplication>
 #include <QDebug>
+#include "logindialog.h"
 
 int main(int argc, char *argv[]) {
-  QCoreApplication a(argc, argv);
-  qDebug() << "Hello World";
-  return QCoreApplication::exec();
+  QApplication a(argc, argv);
+  LoginDialog login;
+  login.show();
+  return a.exec(); // 使程序进入消息循环
 }

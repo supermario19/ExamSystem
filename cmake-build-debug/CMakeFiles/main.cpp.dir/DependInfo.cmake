@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/lanhao/C++_Program/ExamSystem/logindialog.cpp" "/Users/lanhao/C++_Program/ExamSystem/cmake-build-debug/CMakeFiles/main.cpp.dir/logindialog.cpp.o"
   "/Users/lanhao/C++_Program/ExamSystem/main.cpp" "/Users/lanhao/C++_Program/ExamSystem/cmake-build-debug/CMakeFiles/main.cpp.dir/main.cpp.o"
   "/Users/lanhao/C++_Program/ExamSystem/cmake-build-debug/main.cpp_autogen/mocs_compilation.cpp" "/Users/lanhao/C++_Program/ExamSystem/cmake-build-debug/CMakeFiles/main.cpp.dir/main.cpp_autogen/mocs_compilation.cpp.o"
   "/Users/lanhao/C++_Program/ExamSystem/mainwindow.cpp" "/Users/lanhao/C++_Program/ExamSystem/cmake-build-debug/CMakeFiles/main.cpp.dir/mainwindow.cpp.o"

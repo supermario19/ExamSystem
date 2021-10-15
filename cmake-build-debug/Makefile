@@ -143,6 +143,19 @@ main.cpp/fast:
 .PHONY : main.cpp/fast
 
 #=============================================================================
+# Target rules for targets named logindialog.cpp
+
+# Build rule for target.
+logindialog.cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 logindialog.cpp
+.PHONY : logindialog.cpp
+
+# fast build rule for target.
+logindialog.cpp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logindialog.cpp.dir/build.make CMakeFiles/logindialog.cpp.dir/build
+.PHONY : logindialog.cpp/fast
+
+#=============================================================================
 # Target rules for targets named mainwindow.cpp_autogen
 
 # Build rule for target.
@@ -167,6 +180,73 @@ main.cpp_autogen: cmake_check_build_system
 main.cpp_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.cpp_autogen.dir/build.make CMakeFiles/main.cpp_autogen.dir/build
 .PHONY : main.cpp_autogen/fast
+
+#=============================================================================
+# Target rules for targets named logindialog.cpp_autogen
+
+# Build rule for target.
+logindialog.cpp_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 logindialog.cpp_autogen
+.PHONY : logindialog.cpp_autogen
+
+# fast build rule for target.
+logindialog.cpp_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logindialog.cpp_autogen.dir/build.make CMakeFiles/logindialog.cpp_autogen.dir/build
+.PHONY : logindialog.cpp_autogen/fast
+
+logindialog.o: logindialog.cpp.o
+.PHONY : logindialog.o
+
+# target to build an object file
+logindialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainwindow.cpp.dir/build.make CMakeFiles/mainwindow.cpp.dir/logindialog.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/logindialog.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logindialog.cpp.dir/build.make CMakeFiles/logindialog.cpp.dir/logindialog.cpp.o
+.PHONY : logindialog.cpp.o
+
+logindialog.i: logindialog.cpp.i
+.PHONY : logindialog.i
+
+# target to preprocess a source file
+logindialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainwindow.cpp.dir/build.make CMakeFiles/mainwindow.cpp.dir/logindialog.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/logindialog.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logindialog.cpp.dir/build.make CMakeFiles/logindialog.cpp.dir/logindialog.cpp.i
+.PHONY : logindialog.cpp.i
+
+logindialog.s: logindialog.cpp.s
+.PHONY : logindialog.s
+
+# target to generate assembly for a file
+logindialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainwindow.cpp.dir/build.make CMakeFiles/mainwindow.cpp.dir/logindialog.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/logindialog.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logindialog.cpp.dir/build.make CMakeFiles/logindialog.cpp.dir/logindialog.cpp.s
+.PHONY : logindialog.cpp.s
+
+logindialog.cpp_autogen/mocs_compilation.o: logindialog.cpp_autogen/mocs_compilation.cpp.o
+.PHONY : logindialog.cpp_autogen/mocs_compilation.o
+
+# target to build an object file
+logindialog.cpp_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logindialog.cpp.dir/build.make CMakeFiles/logindialog.cpp.dir/logindialog.cpp_autogen/mocs_compilation.cpp.o
+.PHONY : logindialog.cpp_autogen/mocs_compilation.cpp.o
+
+logindialog.cpp_autogen/mocs_compilation.i: logindialog.cpp_autogen/mocs_compilation.cpp.i
+.PHONY : logindialog.cpp_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+logindialog.cpp_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logindialog.cpp.dir/build.make CMakeFiles/logindialog.cpp.dir/logindialog.cpp_autogen/mocs_compilation.cpp.i
+.PHONY : logindialog.cpp_autogen/mocs_compilation.cpp.i
+
+logindialog.cpp_autogen/mocs_compilation.s: logindialog.cpp_autogen/mocs_compilation.cpp.s
+.PHONY : logindialog.cpp_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+logindialog.cpp_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logindialog.cpp.dir/build.make CMakeFiles/logindialog.cpp.dir/logindialog.cpp_autogen/mocs_compilation.cpp.s
+.PHONY : logindialog.cpp_autogen/mocs_compilation.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -223,6 +303,7 @@ mainwindow.o: mainwindow.cpp.o
 mainwindow.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainwindow.cpp.dir/build.make CMakeFiles/mainwindow.cpp.dir/mainwindow.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/mainwindow.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logindialog.cpp.dir/build.make CMakeFiles/logindialog.cpp.dir/mainwindow.cpp.o
 .PHONY : mainwindow.cpp.o
 
 mainwindow.i: mainwindow.cpp.i
@@ -232,6 +313,7 @@ mainwindow.i: mainwindow.cpp.i
 mainwindow.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainwindow.cpp.dir/build.make CMakeFiles/mainwindow.cpp.dir/mainwindow.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/mainwindow.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logindialog.cpp.dir/build.make CMakeFiles/logindialog.cpp.dir/mainwindow.cpp.i
 .PHONY : mainwindow.cpp.i
 
 mainwindow.s: mainwindow.cpp.s
@@ -241,6 +323,7 @@ mainwindow.s: mainwindow.cpp.s
 mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainwindow.cpp.dir/build.make CMakeFiles/mainwindow.cpp.dir/mainwindow.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/mainwindow.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logindialog.cpp.dir/build.make CMakeFiles/logindialog.cpp.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
 mainwindow.cpp_autogen/mocs_compilation.o: mainwindow.cpp_autogen/mocs_compilation.cpp.o
@@ -275,10 +358,18 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... logindialog.cpp_autogen"
 	@echo "... main.cpp_autogen"
 	@echo "... mainwindow.cpp_autogen"
+	@echo "... logindialog.cpp"
 	@echo "... main.cpp"
 	@echo "... mainwindow.cpp"
+	@echo "... logindialog.o"
+	@echo "... logindialog.i"
+	@echo "... logindialog.s"
+	@echo "... logindialog.cpp_autogen/mocs_compilation.o"
+	@echo "... logindialog.cpp_autogen/mocs_compilation.i"
+	@echo "... logindialog.cpp_autogen/mocs_compilation.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -237,6 +237,106 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/lanhao/C++_Program/ExamSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="logindialog.cpp">
+				<Option output="/Users/lanhao/C++_Program/ExamSystem/cmake-build-debug/logindialog.cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lanhao/C++_Program/ExamSystem/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_QUICK_LIB"/>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_QMLMODELS_LIB"/>
+					<Add option="-DQT_OPENGL_LIB"/>
+					<Add directory="/Users/lanhao/C++_Program/ExamSystem/cmake-build-debug/logindialog.cpp_autogen/include"/>
+					<Add directory="/opt/homebrew/opt/mysql@8.0/include/mysql"/>
+					<Add directory="/opt/homebrew/opt/qt@6/include"/>
+					<Add directory="/opt/homebrew/lib/QtCore.framework"/>
+					<Add directory="/opt/homebrew/lib/QtCore.framework/Headers"/>
+					<Add directory="/opt/homebrew/share/qt/mkspecs/macx-clang"/>
+					<Add directory="/opt/homebrew/include"/>
+					<Add directory="/opt/homebrew/lib/QtWidgets.framework"/>
+					<Add directory="/opt/homebrew/lib/QtWidgets.framework/Headers"/>
+					<Add directory="/opt/homebrew/lib/QtGui.framework"/>
+					<Add directory="/opt/homebrew/lib/QtGui.framework/Headers"/>
+					<Add directory="/opt/homebrew/lib/QtQuick.framework"/>
+					<Add directory="/opt/homebrew/lib/QtQuick.framework/Headers"/>
+					<Add directory="/opt/homebrew/lib/QtQml.framework"/>
+					<Add directory="/opt/homebrew/lib/QtQml.framework/Headers"/>
+					<Add directory="/opt/homebrew/lib/QtNetwork.framework"/>
+					<Add directory="/opt/homebrew/lib/QtNetwork.framework/Headers"/>
+					<Add directory="/opt/homebrew/lib/QtQmlModels.framework"/>
+					<Add directory="/opt/homebrew/lib/QtQmlModels.framework/Headers"/>
+					<Add directory="/opt/homebrew/lib/QtOpenGL.framework"/>
+					<Add directory="/opt/homebrew/lib/QtOpenGL.framework/Headers"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/lanhao/C++_Program/ExamSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 logindialog.cpp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/lanhao/C++_Program/ExamSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/lanhao/C++_Program/ExamSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/lanhao/C++_Program/ExamSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="logindialog.cpp/fast">
+				<Option output="/Users/lanhao/C++_Program/ExamSystem/cmake-build-debug/logindialog.cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lanhao/C++_Program/ExamSystem/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_QUICK_LIB"/>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_QMLMODELS_LIB"/>
+					<Add option="-DQT_OPENGL_LIB"/>
+					<Add directory="/Users/lanhao/C++_Program/ExamSystem/cmake-build-debug/logindialog.cpp_autogen/include"/>
+					<Add directory="/opt/homebrew/opt/mysql@8.0/include/mysql"/>
+					<Add directory="/opt/homebrew/opt/qt@6/include"/>
+					<Add directory="/opt/homebrew/lib/QtCore.framework"/>
+					<Add directory="/opt/homebrew/lib/QtCore.framework/Headers"/>
+					<Add directory="/opt/homebrew/share/qt/mkspecs/macx-clang"/>
+					<Add directory="/opt/homebrew/include"/>
+					<Add directory="/opt/homebrew/lib/QtWidgets.framework"/>
+					<Add directory="/opt/homebrew/lib/QtWidgets.framework/Headers"/>
+					<Add directory="/opt/homebrew/lib/QtGui.framework"/>
+					<Add directory="/opt/homebrew/lib/QtGui.framework/Headers"/>
+					<Add directory="/opt/homebrew/lib/QtQuick.framework"/>
+					<Add directory="/opt/homebrew/lib/QtQuick.framework/Headers"/>
+					<Add directory="/opt/homebrew/lib/QtQml.framework"/>
+					<Add directory="/opt/homebrew/lib/QtQml.framework/Headers"/>
+					<Add directory="/opt/homebrew/lib/QtNetwork.framework"/>
+					<Add directory="/opt/homebrew/lib/QtNetwork.framework/Headers"/>
+					<Add directory="/opt/homebrew/lib/QtQmlModels.framework"/>
+					<Add directory="/opt/homebrew/lib/QtQmlModels.framework/Headers"/>
+					<Add directory="/opt/homebrew/lib/QtOpenGL.framework"/>
+					<Add directory="/opt/homebrew/lib/QtOpenGL.framework/Headers"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/lanhao/C++_Program/ExamSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 logindialog.cpp/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/lanhao/C++_Program/ExamSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/lanhao/C++_Program/ExamSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/lanhao/C++_Program/ExamSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="mainwindow.cpp_autogen">
 				<Option working_dir="/Users/lanhao/C++_Program/ExamSystem/cmake-build-debug"/>
 				<Option type="4"/>
@@ -257,12 +357,40 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/lanhao/C++_Program/ExamSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="logindialog.cpp_autogen">
+				<Option working_dir="/Users/lanhao/C++_Program/ExamSystem/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/lanhao/C++_Program/ExamSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 logindialog.cpp_autogen"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/lanhao/C++_Program/ExamSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/lanhao/C++_Program/ExamSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/lanhao/C++_Program/ExamSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
+		<Unit filename="/Users/lanhao/C++_Program/ExamSystem/cmake-build-debug/logindialog.cpp_autogen/mocs_compilation.cpp">
+			<Option target="logindialog.cpp"/>
+		</Unit>
 		<Unit filename="/Users/lanhao/C++_Program/ExamSystem/cmake-build-debug/main.cpp_autogen/mocs_compilation.cpp">
 			<Option target="main.cpp"/>
 		</Unit>
 		<Unit filename="/Users/lanhao/C++_Program/ExamSystem/cmake-build-debug/mainwindow.cpp_autogen/mocs_compilation.cpp">
 			<Option target="mainwindow.cpp"/>
+		</Unit>
+		<Unit filename="/Users/lanhao/C++_Program/ExamSystem/logindialog.cpp">
+			<Option target="mainwindow.cpp"/>
+			<Option target="main.cpp"/>
+			<Option target="logindialog.cpp"/>
+		</Unit>
+		<Unit filename="/Users/lanhao/C++_Program/ExamSystem/logindialog.h">
+			<Option target="mainwindow.cpp"/>
+			<Option target="main.cpp"/>
+			<Option target="logindialog.cpp"/>
+		</Unit>
+		<Unit filename="/Users/lanhao/C++_Program/ExamSystem/logindialog.ui">
+			<Option target="mainwindow.cpp"/>
+			<Option target="main.cpp"/>
+			<Option target="logindialog.cpp"/>
 		</Unit>
 		<Unit filename="/Users/lanhao/C++_Program/ExamSystem/main.cpp">
 			<Option target="main.cpp"/>
@@ -270,14 +398,17 @@
 		<Unit filename="/Users/lanhao/C++_Program/ExamSystem/mainwindow.cpp">
 			<Option target="mainwindow.cpp"/>
 			<Option target="main.cpp"/>
+			<Option target="logindialog.cpp"/>
 		</Unit>
 		<Unit filename="/Users/lanhao/C++_Program/ExamSystem/mainwindow.h">
 			<Option target="mainwindow.cpp"/>
 			<Option target="main.cpp"/>
+			<Option target="logindialog.cpp"/>
 		</Unit>
 		<Unit filename="/Users/lanhao/C++_Program/ExamSystem/mainwindow.ui">
 			<Option target="mainwindow.cpp"/>
 			<Option target="main.cpp"/>
+			<Option target="logindialog.cpp"/>
 		</Unit>
 		<Unit filename="/Users/lanhao/C++_Program/ExamSystem/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

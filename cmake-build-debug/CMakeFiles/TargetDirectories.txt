@@ -2,5 +2,7 @@
 /Users/lanhao/C++_Program/ExamSystem/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/lanhao/C++_Program/ExamSystem/cmake-build-debug/CMakeFiles/mainwindow.cpp.dir
 /Users/lanhao/C++_Program/ExamSystem/cmake-build-debug/CMakeFiles/main.cpp.dir
+/Users/lanhao/C++_Program/ExamSystem/cmake-build-debug/CMakeFiles/logindialog.cpp.dir
 /Users/lanhao/C++_Program/ExamSystem/cmake-build-debug/CMakeFiles/mainwindow.cpp_autogen.dir
 /Users/lanhao/C++_Program/ExamSystem/cmake-build-debug/CMakeFiles/main.cpp_autogen.dir
+/Users/lanhao/C++_Program/ExamSystem/cmake-build-debug/CMakeFiles/logindialog.cpp_autogen.dir

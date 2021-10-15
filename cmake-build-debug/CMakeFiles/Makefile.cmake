@@ -153,6 +153,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/mainwindow.cpp_autogen.dir/AutogenInfo.json"
   "CMakeFiles/main.cpp_autogen.dir/AutogenInfo.json"
+  "CMakeFiles/logindialog.cpp_autogen.dir/AutogenInfo.json"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -160,6 +161,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/mainwindow.cpp.dir/DependInfo.cmake"
   "CMakeFiles/main.cpp.dir/DependInfo.cmake"
+  "CMakeFiles/logindialog.cpp.dir/DependInfo.cmake"
   "CMakeFiles/mainwindow.cpp_autogen.dir/DependInfo.cmake"
   "CMakeFiles/main.cpp_autogen.dir/DependInfo.cmake"
+  "CMakeFiles/logindialog.cpp_autogen.dir/DependInfo.cmake"
   )

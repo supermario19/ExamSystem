@@ -283,6 +283,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/Users/lanhao/C++_Program/ExamSystem/logindialog.h",
+			"MU",
+			"EWIEGA46WW/moc_logindialog.cpp",
+			null
+		],
+		[
 			"/Users/lanhao/C++_Program/ExamSystem/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -364,6 +370,7 @@
 	"SETTINGS_FILE" : "/Users/lanhao/C++_Program/ExamSystem/cmake-build-debug/CMakeFiles/main.cpp_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "/Users/lanhao/C++_Program/ExamSystem/logindialog.cpp", "MU", null ],
 		[ "/Users/lanhao/C++_Program/ExamSystem/main.cpp", "MU", null ],
 		[ "/Users/lanhao/C++_Program/ExamSystem/mainwindow.cpp", "MU", null ]
 	],
