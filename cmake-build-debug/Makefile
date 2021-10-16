@@ -65,16 +65,6 @@ CMAKE_BINARY_DIR = /Users/lanhao/C++_Program/ExamSystem/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"/Users/lanhao/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -84,6 +74,16 @@ edit_cache:
 # Special rule for the target edit_cache
 edit_cache/fast: edit_cache
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"/Users/lanhao/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -156,6 +156,19 @@ logindialog.cpp/fast:
 .PHONY : logindialog.cpp/fast
 
 #=============================================================================
+# Target rules for targets named examdialog.cpp
+
+# Build rule for target.
+examdialog.cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examdialog.cpp
+.PHONY : examdialog.cpp
+
+# fast build rule for target.
+examdialog.cpp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/examdialog.cpp.dir/build.make CMakeFiles/examdialog.cpp.dir/build
+.PHONY : examdialog.cpp/fast
+
+#=============================================================================
 # Target rules for targets named mainwindow.cpp_autogen
 
 # Build rule for target.
@@ -194,6 +207,76 @@ logindialog.cpp_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/logindialog.cpp_autogen.dir/build.make CMakeFiles/logindialog.cpp_autogen.dir/build
 .PHONY : logindialog.cpp_autogen/fast
 
+#=============================================================================
+# Target rules for targets named examdialog.cpp_autogen
+
+# Build rule for target.
+examdialog.cpp_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examdialog.cpp_autogen
+.PHONY : examdialog.cpp_autogen
+
+# fast build rule for target.
+examdialog.cpp_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/examdialog.cpp_autogen.dir/build.make CMakeFiles/examdialog.cpp_autogen.dir/build
+.PHONY : examdialog.cpp_autogen/fast
+
+examdialog.o: examdialog.cpp.o
+.PHONY : examdialog.o
+
+# target to build an object file
+examdialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainwindow.cpp.dir/build.make CMakeFiles/mainwindow.cpp.dir/examdialog.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/examdialog.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logindialog.cpp.dir/build.make CMakeFiles/logindialog.cpp.dir/examdialog.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/examdialog.cpp.dir/build.make CMakeFiles/examdialog.cpp.dir/examdialog.cpp.o
+.PHONY : examdialog.cpp.o
+
+examdialog.i: examdialog.cpp.i
+.PHONY : examdialog.i
+
+# target to preprocess a source file
+examdialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainwindow.cpp.dir/build.make CMakeFiles/mainwindow.cpp.dir/examdialog.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/examdialog.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logindialog.cpp.dir/build.make CMakeFiles/logindialog.cpp.dir/examdialog.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/examdialog.cpp.dir/build.make CMakeFiles/examdialog.cpp.dir/examdialog.cpp.i
+.PHONY : examdialog.cpp.i
+
+examdialog.s: examdialog.cpp.s
+.PHONY : examdialog.s
+
+# target to generate assembly for a file
+examdialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainwindow.cpp.dir/build.make CMakeFiles/mainwindow.cpp.dir/examdialog.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/examdialog.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/logindialog.cpp.dir/build.make CMakeFiles/logindialog.cpp.dir/examdialog.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/examdialog.cpp.dir/build.make CMakeFiles/examdialog.cpp.dir/examdialog.cpp.s
+.PHONY : examdialog.cpp.s
+
+examdialog.cpp_autogen/mocs_compilation.o: examdialog.cpp_autogen/mocs_compilation.cpp.o
+.PHONY : examdialog.cpp_autogen/mocs_compilation.o
+
+# target to build an object file
+examdialog.cpp_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/examdialog.cpp.dir/build.make CMakeFiles/examdialog.cpp.dir/examdialog.cpp_autogen/mocs_compilation.cpp.o
+.PHONY : examdialog.cpp_autogen/mocs_compilation.cpp.o
+
+examdialog.cpp_autogen/mocs_compilation.i: examdialog.cpp_autogen/mocs_compilation.cpp.i
+.PHONY : examdialog.cpp_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+examdialog.cpp_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/examdialog.cpp.dir/build.make CMakeFiles/examdialog.cpp.dir/examdialog.cpp_autogen/mocs_compilation.cpp.i
+.PHONY : examdialog.cpp_autogen/mocs_compilation.cpp.i
+
+examdialog.cpp_autogen/mocs_compilation.s: examdialog.cpp_autogen/mocs_compilation.cpp.s
+.PHONY : examdialog.cpp_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+examdialog.cpp_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/examdialog.cpp.dir/build.make CMakeFiles/examdialog.cpp.dir/examdialog.cpp_autogen/mocs_compilation.cpp.s
+.PHONY : examdialog.cpp_autogen/mocs_compilation.cpp.s
+
 logindialog.o: logindialog.cpp.o
 .PHONY : logindialog.o
 
@@ -202,6 +285,7 @@ logindialog.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainwindow.cpp.dir/build.make CMakeFiles/mainwindow.cpp.dir/logindialog.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/logindialog.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/logindialog.cpp.dir/build.make CMakeFiles/logindialog.cpp.dir/logindialog.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/examdialog.cpp.dir/build.make CMakeFiles/examdialog.cpp.dir/logindialog.cpp.o
 .PHONY : logindialog.cpp.o
 
 logindialog.i: logindialog.cpp.i
@@ -212,6 +296,7 @@ logindialog.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainwindow.cpp.dir/build.make CMakeFiles/mainwindow.cpp.dir/logindialog.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/logindialog.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/logindialog.cpp.dir/build.make CMakeFiles/logindialog.cpp.dir/logindialog.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/examdialog.cpp.dir/build.make CMakeFiles/examdialog.cpp.dir/logindialog.cpp.i
 .PHONY : logindialog.cpp.i
 
 logindialog.s: logindialog.cpp.s
@@ -222,6 +307,7 @@ logindialog.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainwindow.cpp.dir/build.make CMakeFiles/mainwindow.cpp.dir/logindialog.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/logindialog.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/logindialog.cpp.dir/build.make CMakeFiles/logindialog.cpp.dir/logindialog.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/examdialog.cpp.dir/build.make CMakeFiles/examdialog.cpp.dir/logindialog.cpp.s
 .PHONY : logindialog.cpp.s
 
 logindialog.cpp_autogen/mocs_compilation.o: logindialog.cpp_autogen/mocs_compilation.cpp.o
@@ -304,6 +390,7 @@ mainwindow.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainwindow.cpp.dir/build.make CMakeFiles/mainwindow.cpp.dir/mainwindow.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/mainwindow.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/logindialog.cpp.dir/build.make CMakeFiles/logindialog.cpp.dir/mainwindow.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/examdialog.cpp.dir/build.make CMakeFiles/examdialog.cpp.dir/mainwindow.cpp.o
 .PHONY : mainwindow.cpp.o
 
 mainwindow.i: mainwindow.cpp.i
@@ -314,6 +401,7 @@ mainwindow.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainwindow.cpp.dir/build.make CMakeFiles/mainwindow.cpp.dir/mainwindow.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/mainwindow.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/logindialog.cpp.dir/build.make CMakeFiles/logindialog.cpp.dir/mainwindow.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/examdialog.cpp.dir/build.make CMakeFiles/examdialog.cpp.dir/mainwindow.cpp.i
 .PHONY : mainwindow.cpp.i
 
 mainwindow.s: mainwindow.cpp.s
@@ -324,6 +412,7 @@ mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainwindow.cpp.dir/build.make CMakeFiles/mainwindow.cpp.dir/mainwindow.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/mainwindow.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/logindialog.cpp.dir/build.make CMakeFiles/logindialog.cpp.dir/mainwindow.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/examdialog.cpp.dir/build.make CMakeFiles/examdialog.cpp.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
 mainwindow.cpp_autogen/mocs_compilation.o: mainwindow.cpp_autogen/mocs_compilation.cpp.o
@@ -358,12 +447,20 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... examdialog.cpp_autogen"
 	@echo "... logindialog.cpp_autogen"
 	@echo "... main.cpp_autogen"
 	@echo "... mainwindow.cpp_autogen"
+	@echo "... examdialog.cpp"
 	@echo "... logindialog.cpp"
 	@echo "... main.cpp"
 	@echo "... mainwindow.cpp"
+	@echo "... examdialog.o"
+	@echo "... examdialog.i"
+	@echo "... examdialog.s"
+	@echo "... examdialog.cpp_autogen/mocs_compilation.o"
+	@echo "... examdialog.cpp_autogen/mocs_compilation.i"
+	@echo "... examdialog.cpp_autogen/mocs_compilation.s"
 	@echo "... logindialog.o"
 	@echo "... logindialog.i"
 	@echo "... logindialog.s"

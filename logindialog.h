@@ -25,7 +25,9 @@ class LoginDialog : public QWidget {
  private:
   Ui::LoginDialog *ui;
 
-  void init_window();
+  void init_window(); // 初始化窗口
+  bool email_check(const QString &email); // 邮箱检查
+  bool user_password_check(const QString &username, const QString &password, const QString &filename); // 账号密码检查
 };
 
 #endif //EXAMSYSTEM__LOGINDIALOG_H_
