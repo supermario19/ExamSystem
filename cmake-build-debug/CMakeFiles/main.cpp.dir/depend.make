@@ -15,19 +15,23 @@ CMakeFiles/main.cpp.dir/examdialog.cpp.o: \
  /opt/homebrew/lib/QtGui.framework/Headers/QFont \
  /opt/homebrew/lib/QtGui.framework/Headers/qfont.h \
  /opt/homebrew/lib/QtWidgets.framework/Headers/QApplication \
+ /opt/homebrew/lib/QtWidgets.framework/Headers/QButtonGroup \
  /opt/homebrew/lib/QtWidgets.framework/Headers/QCheckBox \
  /opt/homebrew/lib/QtWidgets.framework/Headers/QDialog \
  /opt/homebrew/lib/QtWidgets.framework/Headers/QGridLayout \
  /opt/homebrew/lib/QtWidgets.framework/Headers/QLabel \
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox \
+ /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton \
  /opt/homebrew/lib/QtWidgets.framework/Headers/QRadioButton \
  /opt/homebrew/lib/QtWidgets.framework/Headers/QTextEdit \
  /opt/homebrew/lib/QtWidgets.framework/Headers/qapplication.h \
+ /opt/homebrew/lib/QtWidgets.framework/Headers/qbuttongroup.h \
  /opt/homebrew/lib/QtWidgets.framework/Headers/qcheckbox.h \
  /opt/homebrew/lib/QtWidgets.framework/Headers/qdialog.h \
  /opt/homebrew/lib/QtWidgets.framework/Headers/qgridlayout.h \
  /opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h \
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h \
+ /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h \
  /opt/homebrew/lib/QtWidgets.framework/Headers/qradiobutton.h \
  /opt/homebrew/lib/QtWidgets.framework/Headers/qtextedit.h \
  /opt/homebrew/opt/qt@6/include/QtCore/QList \
@@ -365,20 +369,24 @@ CMakeFiles/main.cpp.dir/main.cpp.o: \
  /opt/homebrew/lib/QtGui.framework/Headers/QFont \
  /opt/homebrew/lib/QtGui.framework/Headers/qfont.h \
  /opt/homebrew/lib/QtWidgets.framework/Headers/QApplication \
+ /opt/homebrew/lib/QtWidgets.framework/Headers/QButtonGroup \
  /opt/homebrew/lib/QtWidgets.framework/Headers/QCheckBox \
  /opt/homebrew/lib/QtWidgets.framework/Headers/QDialog \
  /opt/homebrew/lib/QtWidgets.framework/Headers/QGridLayout \
  /opt/homebrew/lib/QtWidgets.framework/Headers/QLabel \
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox \
+ /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton \
  /opt/homebrew/lib/QtWidgets.framework/Headers/QRadioButton \
  /opt/homebrew/lib/QtWidgets.framework/Headers/QTextEdit \
  /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
  /opt/homebrew/lib/QtWidgets.framework/Headers/qapplication.h \
+ /opt/homebrew/lib/QtWidgets.framework/Headers/qbuttongroup.h \
  /opt/homebrew/lib/QtWidgets.framework/Headers/qcheckbox.h \
  /opt/homebrew/lib/QtWidgets.framework/Headers/qdialog.h \
  /opt/homebrew/lib/QtWidgets.framework/Headers/qgridlayout.h \
  /opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h \
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h \
+ /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h \
  /opt/homebrew/lib/QtWidgets.framework/Headers/qradiobutton.h \
  /opt/homebrew/lib/QtWidgets.framework/Headers/qtextedit.h \
  /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h \
@@ -550,20 +558,24 @@ CMakeFiles/main.cpp.dir/main.cpp_autogen/mocs_compilation.cpp.o: \
  /opt/homebrew/lib/QtGui.framework/Headers/QFont \
  /opt/homebrew/lib/QtGui.framework/Headers/qfont.h \
  /opt/homebrew/lib/QtWidgets.framework/Headers/QApplication \
+ /opt/homebrew/lib/QtWidgets.framework/Headers/QButtonGroup \
  /opt/homebrew/lib/QtWidgets.framework/Headers/QCheckBox \
  /opt/homebrew/lib/QtWidgets.framework/Headers/QDialog \
  /opt/homebrew/lib/QtWidgets.framework/Headers/QGridLayout \
  /opt/homebrew/lib/QtWidgets.framework/Headers/QLabel \
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox \
+ /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton \
  /opt/homebrew/lib/QtWidgets.framework/Headers/QRadioButton \
  /opt/homebrew/lib/QtWidgets.framework/Headers/QTextEdit \
  /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
  /opt/homebrew/lib/QtWidgets.framework/Headers/qapplication.h \
+ /opt/homebrew/lib/QtWidgets.framework/Headers/qbuttongroup.h \
  /opt/homebrew/lib/QtWidgets.framework/Headers/qcheckbox.h \
  /opt/homebrew/lib/QtWidgets.framework/Headers/qdialog.h \
  /opt/homebrew/lib/QtWidgets.framework/Headers/qgridlayout.h \
  /opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h \
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h \
+ /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h \
  /opt/homebrew/lib/QtWidgets.framework/Headers/qradiobutton.h \
  /opt/homebrew/lib/QtWidgets.framework/Headers/qtextedit.h \
  /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h \

@@ -17,6 +17,7 @@ ExamDialog::ExamDialog(QWidget *parent) :
     QMessageBox::information(this, "错误", "题目初始化失败");
     QTimer::singleShot(0, qApp, SLOT(quit()));
   }
+  init_buttons();
 }
 
 ExamDialog::~ExamDialog() {
@@ -93,6 +94,52 @@ bool ExamDialog::init_QTextEdit() {
   } else {
     return false;
   }
+}
+
+void ExamDialog::init_buttons() {
+  QStringList string_list = {"A", "B", "C", "D"};
+  // 标签布局
+  for (int i = 0; i < 10; i++) {
+    this->title_label[i] = new QLabel(this);
+    this->title_label[i]->setText("第" + QString::number(i + 1) + "题");
+    this->layout->addWidget(title_label[i], 1, i);
+    if (i == 9) {
+      radio_button_right = new QRadioButton(this);
+      radio_button_right->setText("正确");
+      radio_button_error = new QRadioButton(this);
+      radio_button_error->setText("错误");
+      this->layout->addWidget(radio_button_right, 2, i);
+      this->layout->addWidget(radio_button_error, 3, i);
+
+      button_group[8] = new QButtonGroup(this);
+      button_group[8]->addButton(radio_button_right);
+      button_group[8]->addButton(radio_button_error);
+      break;
+    }
+
+    if (i < 8) {
+      button_group[i] = new QButtonGroup(this);
+    }
+    // 选择题
+    for (int j = 0; j < 4; j++) {
+      // 多选题
+      if (i == 8) {
+        this->check_box[j] = new QCheckBox(this);
+        this->check_box[j]->setText(string_list.at(j));
+        this->layout->addWidget(check_box[j], 2 + j, i);
+      } else {
+        // 单选题
+        this->radio_button[4 * i + j] = new QRadioButton(this);
+        this->radio_button[4 * i + j]->setText(string_list.at(j));
+        this->layout->addWidget(radio_button[4 * i + j], 2 + j, i);
+        button_group[i]->addButton(radio_button[4 * i + j]);
+      }
+    }
+  }
+  submit = new QPushButton(this);
+  submit->setText("提交");
+  submit->setFixedSize(100, 35);
+  this->layout->addWidget(submit, 6, 9);
 }
 
 void ExamDialog::fresh_time() {
