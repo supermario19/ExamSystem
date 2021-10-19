@@ -186,15 +186,39 @@ CMakeFiles/main.cpp.dir/examdialog.cpp.o: \
  /opt/homebrew/opt/qt@6/include/QtWidgets/qwidget.h \
  main.cpp_autogen/include/ui_ExamDialog.h
 CMakeFiles/main.cpp.dir/logindialog.cpp.o: \
+ ../examdialog.h \
  ../logindialog.cpp \
  ../logindialog.h \
  /opt/homebrew/lib/QtCore.framework/Headers/QFile \
  /opt/homebrew/lib/QtCore.framework/Headers/QRegularExpression \
+ /opt/homebrew/lib/QtCore.framework/Headers/QStringList \
+ /opt/homebrew/lib/QtCore.framework/Headers/QTextStream \
+ /opt/homebrew/lib/QtCore.framework/Headers/QTimer \
  /opt/homebrew/lib/QtCore.framework/Headers/qfile.h \
  /opt/homebrew/lib/QtCore.framework/Headers/qregularexpression.h \
+ /opt/homebrew/lib/QtCore.framework/Headers/qstringlist.h \
+ /opt/homebrew/lib/QtCore.framework/Headers/qtextstream.h \
+ /opt/homebrew/lib/QtCore.framework/Headers/qtimer.h \
+ /opt/homebrew/lib/QtGui.framework/Headers/QFont \
+ /opt/homebrew/lib/QtGui.framework/Headers/qfont.h \
+ /opt/homebrew/lib/QtWidgets.framework/Headers/QApplication \
+ /opt/homebrew/lib/QtWidgets.framework/Headers/QButtonGroup \
+ /opt/homebrew/lib/QtWidgets.framework/Headers/QCheckBox \
+ /opt/homebrew/lib/QtWidgets.framework/Headers/QDialog \
+ /opt/homebrew/lib/QtWidgets.framework/Headers/QGridLayout \
+ /opt/homebrew/lib/QtWidgets.framework/Headers/QLabel \
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox \
+ /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton \
+ /opt/homebrew/lib/QtWidgets.framework/Headers/QRadioButton \
+ /opt/homebrew/lib/QtWidgets.framework/Headers/QTextEdit \
  /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
+ /opt/homebrew/lib/QtWidgets.framework/Headers/qbuttongroup.h \
+ /opt/homebrew/lib/QtWidgets.framework/Headers/qcheckbox.h \
+ /opt/homebrew/lib/QtWidgets.framework/Headers/qdialog.h \
+ /opt/homebrew/lib/QtWidgets.framework/Headers/qgridlayout.h \
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h \
+ /opt/homebrew/lib/QtWidgets.framework/Headers/qradiobutton.h \
+ /opt/homebrew/lib/QtWidgets.framework/Headers/qtextedit.h \
  /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h \
  /opt/homebrew/opt/qt@6/include/QtCore/QList \
  /opt/homebrew/opt/qt@6/include/QtCore/QObject \
@@ -211,6 +235,7 @@ CMakeFiles/main.cpp.dir/logindialog.cpp.o: \
  /opt/homebrew/opt/qt@6/include/QtCore/qatomic_bootstrap.h \
  /opt/homebrew/opt/qt@6/include/QtCore/qatomic_cxx11.h \
  /opt/homebrew/opt/qt@6/include/QtCore/qbasicatomic.h \
+ /opt/homebrew/opt/qt@6/include/QtCore/qbasictimer.h \
  /opt/homebrew/opt/qt@6/include/QtCore/qbytearray.h \
  /opt/homebrew/opt/qt@6/include/QtCore/qbytearrayalgorithms.h \
  /opt/homebrew/opt/qt@6/include/QtCore/qbytearraylist.h \
@@ -337,10 +362,15 @@ CMakeFiles/main.cpp.dir/logindialog.cpp.o: \
  /opt/homebrew/opt/qt@6/include/QtWidgets/QPushButton \
  /opt/homebrew/opt/qt@6/include/QtWidgets/QWidget \
  /opt/homebrew/opt/qt@6/include/QtWidgets/qabstractbutton.h \
+ /opt/homebrew/opt/qt@6/include/QtWidgets/qabstractscrollarea.h \
  /opt/homebrew/opt/qt@6/include/QtWidgets/qapplication.h \
+ /opt/homebrew/opt/qt@6/include/QtWidgets/qboxlayout.h \
  /opt/homebrew/opt/qt@6/include/QtWidgets/qdialog.h \
  /opt/homebrew/opt/qt@6/include/QtWidgets/qframe.h \
+ /opt/homebrew/opt/qt@6/include/QtWidgets/qgridlayout.h \
  /opt/homebrew/opt/qt@6/include/QtWidgets/qlabel.h \
+ /opt/homebrew/opt/qt@6/include/QtWidgets/qlayout.h \
+ /opt/homebrew/opt/qt@6/include/QtWidgets/qlayoutitem.h \
  /opt/homebrew/opt/qt@6/include/QtWidgets/qlineedit.h \
  /opt/homebrew/opt/qt@6/include/QtWidgets/qpushbutton.h \
  /opt/homebrew/opt/qt@6/include/QtWidgets/qsizepolicy.h \

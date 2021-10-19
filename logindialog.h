@@ -9,6 +9,7 @@
 #include <QMessageBox>
 #include <QRegularExpression>
 #include <QFile>
+#include "examdialog.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class LoginDialog; }
@@ -18,12 +19,14 @@ class LoginDialog : public QWidget {
  Q_OBJECT
  private slots:
   void on_login_btn_clicked();
+  void on_exit_btn_clicked();
  public:
   explicit LoginDialog(QWidget *parent = nullptr);
   ~LoginDialog() override;
 
  private:
   Ui::LoginDialog *ui;
+  ExamDialog *exam_dialog;
 
   void init_window(); // 初始化窗口
   bool email_check(const QString &email); // 邮箱检查

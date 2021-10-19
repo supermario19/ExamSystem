@@ -13,6 +13,7 @@ LoginDialog::LoginDialog(QWidget *parent) :
   init_window();
 
   connect(ui->login_btn, SIGNAL(clicked()), this, SLOT(on_login_btn_clicked()));
+  connect(ui->close_btn, SIGNAL(clicked(bool)), this, SLOT(on_exit_btn_clicked()));
 }
 
 LoginDialog::~LoginDialog() {
@@ -37,6 +38,9 @@ void LoginDialog::on_login_btn_clicked() {
       QMessageBox box(this);
       box.setText("登陆成功");
       box.exec();
+      this->close();
+      exam_dialog = new ExamDialog();
+      exam_dialog->show();
     } else {
       // 验证错误
       QMessageBox box(this);
@@ -44,6 +48,10 @@ void LoginDialog::on_login_btn_clicked() {
       box.exec();
     }
   }
+}
+
+void LoginDialog::on_exit_btn_clicked() {
+  this->close();
 }
 
 void LoginDialog::init_window() {

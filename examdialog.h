@@ -35,6 +35,7 @@ class ExamDialog : public QDialog {
   ~ExamDialog() override;
  private slots:
   void fresh_time();
+  void get_score();
  private:
   Ui::ExamDialog *ui;
   QTextEdit *text_edit; // 文本编辑器
@@ -56,6 +57,8 @@ class ExamDialog : public QDialog {
   void init_QGridLayout(); // 初始化布局管理器
   bool init_QTextEdit(); // 初始化文本编辑器
   void init_buttons(); //  初始化按钮
+
+  bool has_no_select(); // 判断题目是否未完成
 };
 
 #endif //EXAMSYSTEM__EXAMDIALOG_H_
